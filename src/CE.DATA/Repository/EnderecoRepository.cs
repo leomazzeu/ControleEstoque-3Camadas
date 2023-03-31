@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CE.DATA.Repository
 {
-    public class EnderecoRepository : Repository<Endereco>, IEnderecoFornecedor
+    public class EnderecoRepository : Repository<Endereco>, IEnderecoRepository
     {
 
         public EnderecoRepository(CEDbContext context) : base(context) 

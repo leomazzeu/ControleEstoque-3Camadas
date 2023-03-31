@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CE.BUSINESS.Interfaces
 {
-    public interface IEnderecoFornecedor : IRepository<Endereco>
+    public interface IEnderecoRepository : IRepository<Endereco>
     {
         Task<Endereco> ObterEnderecoPorFornecedor(Guid fornecedorId);
     }
