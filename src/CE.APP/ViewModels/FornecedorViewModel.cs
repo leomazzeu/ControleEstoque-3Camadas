@@ -24,6 +24,6 @@ namespace CE.APP.ViewModels
 
         public EnderecoViewModel Endereco { get; set; }
 
-        public IEnumerable<ProdutoViewModel> Produtos { get; set; }
+        //public IEnumerable<ProdutoViewModel> Produtos { get; set; }
     }
 }

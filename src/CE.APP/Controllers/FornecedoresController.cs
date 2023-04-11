@@ -53,7 +53,7 @@ namespace CE.APP.Controllers
 
         public async Task<IActionResult> Edit(Guid id)
         {
-            var fornecedorViewModel = await ObterFornecedorProdutosEndereco(id);
+            var fornecedorViewModel = await ObterFornecedorEndereco(id);
 
             if (fornecedorViewModel == null) return NotFound();
 
@@ -65,6 +65,8 @@ namespace CE.APP.Controllers
         public async Task<IActionResult> Edit(Guid id, FornecedorViewModel fornecedorViewModel)
         {
             if (id != fornecedorViewModel.Id) return NotFound();
+
+            //fornecedorViewModel = await ObterFornecedorEndereco(id);
 
             if (!ModelState.IsValid) return View(fornecedorViewModel);
 
