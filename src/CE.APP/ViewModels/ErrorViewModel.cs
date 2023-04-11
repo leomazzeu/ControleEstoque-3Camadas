@@ -1,4 +1,4 @@
-namespace CE.APP.Models
+namespace CE.APP.ViewModels
 {
     public class ErrorViewModel
     {
