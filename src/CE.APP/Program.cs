@@ -1,3 +1,4 @@
+using AutoMapper;
 using CE.APP.Data;
 using CE.BUSINESS.Interfaces;
 using CE.DATA.Context;

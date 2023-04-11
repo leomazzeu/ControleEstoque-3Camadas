@@ -19,10 +19,10 @@ namespace CE.APP.ViewModels
         [DisplayName("Tipo")]
         public int TipoFornecedor { get; set; }
 
-        public EnderecoViewModel Endereco { get; set; }
-
         [DisplayName("Ativo?")]
         public bool Ativo { get; set; }
+
+        public EnderecoViewModel Endereco { get; set; }
 
         public IEnumerable<ProdutoViewModel> Produtos { get; set; }
     }

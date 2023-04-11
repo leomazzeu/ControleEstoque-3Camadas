@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using CE.APP.ViewModels;
 
 namespace CE.APP.Data
 {
@@ -9,5 +10,7 @@ namespace CE.APP.Data
             : base(options)
         {
         }
+        public DbSet<CE.APP.ViewModels.ProdutoViewModel>? ProdutoViewModel { get; set; }
+        public DbSet<CE.APP.ViewModels.EnderecoViewModel>? EnderecoViewModel { get; set; }
     }
 }
