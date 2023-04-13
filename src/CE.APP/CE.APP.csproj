@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <!--<Nullable>enable</Nullable>-->
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-CE.APP-01e878cc-2088-47ec-9c2f-5b4ebc7ccb6e</UserSecretsId>
   </PropertyGroup>
@@ -19,6 +19,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CE.DATA\CE.DATA.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagens\" />
   </ItemGroup>
 
 </Project>
